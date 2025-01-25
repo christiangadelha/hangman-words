@@ -3,5 +3,5 @@
 palavras = [
     "abacaxi", 
     "banana", 
-    "morango", 
+    "morango",  
 ]
