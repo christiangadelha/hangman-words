@@ -4,5 +4,6 @@ palavras = [
     "banana", 
     "morango",
     "abacate", #palavra nova!
-    "teste"
+    "teste",
+    "view2"
 ]
