@@ -2,5 +2,6 @@
 palavras = [
     "abacaxi", 
     "banana", 
-    "morango",  
+    "morango",
+    "abacate", #palavra nova!
 ]
