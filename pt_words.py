@@ -1,108 +1,46 @@
 temas = {
-    'animals': [
-        "cachorro", "gato", "elefante", "tigre", "leão",
-        "girafa", "rinoceronte", "zebra", "macaco", "cobra",
-        "cavalo", "urso", "pato", "pinguim", "urso polar",
-        "coelho", "raposa", "jacaré", "lobo", "gato selvagem",
-        "pantera", "onça", "baleia", "golfinho", "lince",
-        "capivara", "preguiça", "pinguim imperador", "arara", "gaivota",
-        "corvo", "rato", "morcego", "galo", "papagaio",
-        "camelo", "canguru", "tamanduá", "sagui", "dragão",
-        "águia", "tucano", "hipopótamo", "guepardo", "antílope",
-        "borboleta", "formiga", "abelha", "esquilo", "castor",
-        "polvo", "hamster", "panda", "coala", "gorila",
-        "ouriço", "guaxinim", "avestruz", "flamingo", "pavão",
-        "tartaruga", "crocodilo", "tubarão", "cavalo-marinho", "água-viva"
+    "brands": [
+        "apple", "microsoft", "google", "samsung", "amazon", "intel", "hp", "dell", "sony",
+        "facebook", "instagram", "twitter", "linkedin", "youtube", "whatsapp",
+        "mercedes", "bmw", "toyota", "volkswagen", "honda", "ferrari", "porsche",
+        "nike", "adidas", "puma", "converse", "vans", "ray-ban", "levi's",
+        "coca-cola", "pepsi", "fanta", "mcdonalds", "starbucks", "nestlé",
+        "netflix", "disney", "spotify", "playstation", "xbox", "nintendo",
+        "lg", "huawei", "canon", "philips", "casio", "asus", "lenovo",
+        "visa", "mastercard", "paypal", "uber", "airbnb", "booking",
+        "rolex", "gucci", "colgate", "gillette"
     ],
-    'fruits': [
-        "banana", "maçã", "uva", "laranja", "abacaxi",
-        "morango", "kiwi", "manga", "cereja", "melancia",
-        "pêssego", "pera", "ameixa", "maracujá", "amora",
-        "figo", "pitanga", "mamão", "caqui", "jabuticaba",
-        "acerola", "carambola", "lichia", "groselha", "tamarindo",
-        "jambo", "graviola", "abiu", "cupuaçu", "bacaba",
-        "goiaba", "romã", "tangerina", "framboesa", "mirtilo",
-        "coco", "jaca", "sapoti", "cajá", "ameixa brasileira",
-        "pitaya", "damasco", "nectarina", "toranja", "limão",
-        "amora", "tâmara", "marmelo", "sabugueiro", "oxicoco",
-        "amora-silvestre", "groselha-espinhosa", "kumquat", "durião", "melão"
+
+    "feelings": [
+        "alegria", "amor", "felicidade", "esperança", "gratidão",
+        "carinho", "confiança", "entusiasmo", "orgulho", "compaixão",
+        "tristeza", "raiva", "medo", "ansiedade", "frustração",
+        "angústia", "decepção", "ciúme", "desespero", "solidão",
+        "saudade", "surpresa", "nostalgia", "admiração", "serenidade", 
+        "otimismo", "coragem", "insegurança", "vergonha", "alívio",
+        "euforia", "paixão", "pânico", "fúria", "tormento",
+        "contentamento", "ternura", "curiosidade", "realização", "paz"
     ],
-    'countries': [
-        "brasil", "argentina", "canadá", "nova zelândia", "japão",
-        "alemanha", "frança", "itália", "rússia", "méxico",
-        "espanha", "reino unido", "estados unidos", "china", "índia",
-        "áfrica do sul", "colômbia", "suíça", "portugal", "holanda",
-        "islândia", "noruega", "bielorrússia", "peru", "iraque",
-        "polônia", "singapura", "marrocos", "egito", "tailândia",
-        "dinamarca", "finlândia", "grécia", "turquia", "bélgica",
-        "suécia", "áustria", "hungria", "romênia", "ucrânia",
-        "irlanda", "croácia", "bulgária", "letônia", "estônia",
-        "lituânia", "eslováquia", "eslovênia", "luxemburgo", "chipre",
-        "malta", "nepal", "vietnã", "malásia", "indonésia"
+
+    "elements" = [ 
+        "Hidrogênio", "Lítio", "Sódio", "Potássio", "Rubídio", "Césio", "Frâncio",
+        "Berílio", "Magnésio", "Cálcio", "Estrôncio", "Bário", "Rádio",
+        "Escândio", "Titânio", "Vanádio", "Cromo", "Manganês", "Ferro", "Cobalto", "Níquel", 
+        "Cobre", "Zinco", "Ítrio", "Zircônio", "Nióbio", "Molibdênio", "Tecnécio", "Rutênio", 
+        "Ródio", "Paládio", "Prata", "Cádmio", "Háfnio", "Tântalo", "Tungstênio", "Rênio", 
+        "Ósmio", "Irídio", "Platina", "Ouro", "Mercúrio", "Rutherfordio", "Dúbnio", 
+        "Seabórgio", "Bóhrio", "Hássio", "Meitnério", "Darmstádtio", "Roentgênio", "Copernício",
+        "Alumínio", "Gálio", "Índio", "Tálio", "Estanho", "Chumbo", "Bismuto", "Antímônio",
+        "Lantânio", "Cério", "Praseodímio", "Neodímio", "Promécio", "Samário", "Európio", 
+        "Gadolínio", "Térbio", "Disprósio", "Hólmio", "Érbio", "Túlio", "Itérbio", "Lutécio",
+        "Actínio", "Tório", "Protactínio", "Urânio", "Netúnio", "Plutônio", "Amerício", 
+        "Cúrio", "Berkélio", "Califórnio", "Einstênio", "Férmio", "Mendelévio", "Nobélio", 
+        "Laurêncio", "Boro", "Silício", "Germânio", "Arsênio", "Telúrio", "Polônio",
+        "Carbono", "Nitrogênio", "Oxigênio", "Fósforo", "Enxofre", "Selênio",
+        "Flúor", "Cloro", "Bromo", "Iodo", "Astato", "Tenessino",
+        "Hélio", "Neônio", "Argônio", "Criptônio", "Xenônio", "Radônio", "Oganesson"
     ],
-    'colors': [
-        "vermelho", "azul", "verde", "amarelo", "preto",
-        "branco", "roxo", "rosa", "cinza", "laranja",
-        "bege", "turquesa", "violeta", "dourado", "cobre",
-        "bronze", "magenta", "coral", "pistache", "lima",
-        "pinho", "lavanda", "chartreuse", "verde musgo", "amarelo canário",
-        "cerúleo", "pérola", "carmim", "índigo", "azul profundo",
-        "salmão", "berinjela", "vinho", "caramelo", "terracota",
-        "marrom", "azul marinho", "azul-petróleo", "verde-oliva", "carmesim",
-        "bordô", "malva", "bege escuro", "cáqui", "castanho",
-        "azul-celeste", "siena", "escarlate", "marfim", "platina"
-    ],
-    'professions': [
-        "médico", "professor", "engenheiro", "juiz", "policial",
-        "bombeiro", "padeiro", "eletricista", "motorista", "carpinteiro",
-        "arquiteto", "dentista", "enfermeiro", "designer", "psicólogo",
-        "jornalista", "programador", "cientista", "fotógrafo", "cabeleireiro",
-        "pedreiro", "veterinário", "gerente", "cozinheiro", "pedagogo",
-        "funcionário público", "economista", "contador", "secretário", "segurança",
-        "piloto", "mecânico", "técnico de TI", "analista", "fisioterapeuta",
-        "advogado", "nutricionista", "farmacêutico", "atleta", "músico",
-        "arqueólogo", "astrônomo", "biólogo", "químico", "detetive",
-        "diplomata", "historiador", "bibliotecário", "optometrista", "paramédico",
-        "pesquisador", "sociólogo", "tradutor", "escritor", "zoólogo"
-    ],
-    'objects': [
-        "cadeira", "mesa", "computador", "telefone", "livro",
-        "lâmpada", "televisão", "copo", "caneta", "relógio",
-        "bicicleta", "sofá", "travesseiro", "janela", "porta",
-        "guarda-chuva", "fone de ouvido", "abajur", "escova",
-        "controle remoto", "micro-ondas", "panela", "escada", "banquinho",
-        "carteira", "chave", "cofre", "radar", "joia",
-        "banco", "espelho", "pintura", "vaso", "mala",
-        "impressora", "calculadora", "calendário", "tesoura", "caderno",
-        "grampeador", "régua", "bússola", "envelope", "clipe",
-        "mochila", "carregador", "teclado", "mouse", "monitor",
-        "câmera", "torradeira", "liquidificador", "chaleira", "telescópio"
-    ],
-    'sports': [
-        "futebol", "basquete", "vôlei", "natação", "tênis",
-        "ciclismo", "atletismo", "golfe", "surfe", "skate",
-        "handebol", "hóquei", "rúgbi", "boxe", "jiu-jítsu",
-        "luta livre", "esgrima", "tiro ao alvo", "caratê", "judô",
-        "polo aquático", "patinação", "escalada", "bungee jumping", "capoeira",
-        "lanchas", "vela", "futebol americano", "wrestling", "softbol",
-        "trampolim", "tênis de mesa", "esconde-esconde", "vôlei", "beisebol",
-        "tiro com arco", "badminton", "críquete", "mergulho", "ginástica",
-        "lacrosse", "remo", "squash", "triatlo", "windsurf",
-        "polo", "curling", "parkour", "snowboard", "levantamento de peso"
-    ],
-    "foods": [
-        "pizza", "hambúrguer", "lasanha", "salada", "sushi",
-        "churrasco", "batata", "arroz", "feijão", "bolo",
-        "pão", "torta", "mousse", "bife", "frango",
-        "sopa", "macarrão", "chocolate", "cereal", "panqueca",
-        "curau", "omelete", "pastel", "crepe", "batata frita",
-        "salada de frutas", "bolacha", "empada", "pé de moleque", "tacacá",
-        "feijão tropeiro", "feijoada", "tabule", "salada de batata", "brigadeiro",
-        "gelatina", "biscoito", "cocada", "rocambole", "bolo de milho",
-        "muffin", "croissant", "waffle", "sanduíche", "burrito",
-        "taco", "nachos", "risoto", "paella", "curry",
-        "sashimi", "tempurá", "dim sum", "lámen", "pho"
-    ],
+
     "musical_instruments": [
         "violão", "piano", "bateria", "flauta", "guitarra",
         "violino", "baixo", "trompete", "teclado", "harpa",
@@ -115,74 +53,141 @@ temas = {
         "saxofone", "didgeridoo", "flauta pan", "teremim", "kalimba",
         "lira", "gongo", "cazoo", "flautim", "bongô"
     ],
-    "movies_and_series": [
-        "titanic", "matrix", "guerra nas estrelas", "senhor dos anéis", "harry potter",
-        "breaking bad", "game of thrones", "friends", "the office", "stranger things",
-        "vingadores", "batman", "jurassic park", "indiana jones", "o poderoso chefão",
-        "pulp fiction", "forrest gump", "la casa de papel", "black mirror", "dark",
-        "lost", "prison break", "supernatural", "the crown", "westworld",
-        "how i met your mother", "better call saul", "dexter", "orange is the new black", "house",
-        "greys anatomy", "the walking dead", "mad men", "true detective", "chernobyl",
-        "a origem", "interestelar", "um sonho de liberdade", "clube da luta", "the witcher",
-        "round 6", "bridgerton", "wandavision", "mandalorian", "succession",
-        "wandinha", "ozark", "peaky blinders", "sherlock", "narcos"
+
+    'nature' = [
+        "árvore", "floresta", "montanha", "cachoeira", "oceano",
+        "deserto", "planície", "vale", "rio", "lago",
+        "vulcão", "pedra", "areia", "vento", "chuva",
+        "neve", "granizo", "relâmpago", "tempestade", "nuvem",
+        "céu", "estrela", "lua", "sol", "campo",
+        "jardim", "grama", "folha", "flor", "arbusto",
+        "fauna", "flora", "trilha", "penhasco", "coral",
+        "praia", "ilha", "pantanal", "manguezal", "selva",
+        "bosque", "árido", "savanas", "geada", "gelo",
+        "caverna", "abismo", "pântano", "nascer do sol", "pôr do sol",
+        "galho"
     ],
-    "games": [
-        "minecraft", "mario bros", "zelda", "tetris", "pac-man",
-        "god of war", "grand theft auto", "fifa", "the sims", "portal",
-        "counter strike", "league of legends", "world of warcraft", "pokemon", "sonic",
-        "resident evil", "mortal kombat", "final fantasy", "call of duty", "assassins creed",
-        "metal gear solid", "red dead redemption", "super smash bros", "overwatch", "valorant",
-        "fortnite", "among us", "stardew valley", "undertale", "cuphead",
-        "dark souls", "hollow knight", "civilization", "the witcher", "hades",
-        "elden ring", "cyberpunk", "dead cells", "fallout", "skyrim",
-        "bioshock", "mass effect", "doom", "half-life", "portal",
-        "terraria", "borderlands", "dead space", "diablo", "genshin impact"
+
+    'sports' = [
+        "futebol", "basquete", "vôlei", "tênis", "natação",
+        "atletismo", "ciclismo", "boxe", "karatê", "judô",
+        "esgrima", "ginástica", "handebol", "rugby", "críquete",
+        "hóquei", "golfe", "escalada", "patinação", "surfe",
+        "remo", "canoagem", "skate", "snowboard", "alpinismo",
+        "triatlo", "arco e flecha", "badminton", "beisebol", "futsal",
+        "polo aquático", "kitesurf", "motocross", "corrida", "salto em altura",
+        "salto com vara", "caminhada", "maratona", "levantamento de peso", "luta livre",
+        "pingue-pongue", "peteca", "boliche", "dardos", "bilhar",
+        "esqui", "taekwondo", "kickboxing", "windsurf", "parapente",
+        "corrida de cavalo"
     ],
-    "brands": [
-        "nike", "adidas", "puma", "coca-cola", "pepsi", "fanta", 
-        "samsung", "apple", "xiaomi", "microsoft", "google", "amazon",
-        "netflix", "disney", "spotify", "mercedes", "bmw", "audi",
-        "honda", "toyota", "volkswagen", "vans", "converse", "zara",
-        "gucci", "prada", "rolex", "facebook", "instagram", "twitter",
-        "linkedin", "playstation", "xbox", "nintendo", "colgate", 
-        "gillette", "nestlé", "mcdonalds", "burger king", "starbucks", 
-        "dell", "hp", "intel", "canon", "sony", "philips", "lg", "asus", 
-        "lenovo", "huawei", "fila", "reebok", "oakley", "rayban",
-        "lacoste", "levis", "timberland", "havaianas", "olympikus",
-        "mizuno", "asics", "ferrari", "lamborghini", "porsche",
-        "chevrolet", "hyundai", "nivea", "avon", "natura", "boticário",
-        "apple", "motorola", "casio", "yamaha", "swift", "mastercard",
-        "visa", "paypal", "fedex", "walmart", "carrefour", "shell",
-        "petrobras", "vale", "bradesco", "itaú", "santander", "netflix",
-        "hbo", "prime", "youtube", "telegram", "whatsapp", "safari",
-        "chrome", "firefox", "opera", "skype", "zoom", "adobe",
-        "spotify", "deezer", "pinterest", "uber", "ifood", "rappi",
-        "airbnb", "booking", "trivago", "shopee", "mercadolivre", "magalu"
+    "objects" = [
+        "mesa", "cadeira", "sofá", "cama", "almofada",
+        "computador", "teclado", "mouse", "monitor", "telefone",
+        "celular", "televisão", "geladeira", "fogão", "micro-ondas",
+        "liquidificador", "ventilador", "luminária", "abajur", "relógio",
+        "espelho", "prateleira", "livro", "caneta", "lápis",
+        "borracha", "caderno", "mochila", "bolsa", "carteira",
+        "óculos", "guarda-chuva", "copo", "garrafa", "prato",
+        "talher", "colher", "garfo", "faca", "panela",
+        "travesseiro", "tapete", "pente", "escova", "chuveiro",
+        "torradeira", "ferro de passar", "secador", "caixa", "gaveta",
+        "armário", "sapato", "vassoura", "balde", "escada",
+        "bateria", "controle remoto", "chave", "cadeado", "cesto"
     ],
-    "feelings": [
-        "alegria", "tristeza", "amor", "raiva", "felicidade", "medo",
-        "saudade", "ansiedade", "esperança", "gratidão", "empolgação",
-        "frustração", "euforia", "angústia", "carinho", "confiança",
-        "entusiasmo", "orgulho", "compaixão", "surpresa", "nostalgia",
-        "contentamento", "admiração", "preocupação", "decepção", "ciúme",
-        "ternura", "desespero", "serenidade", "otimismo", "solidão",
-        "coragem", "insegurança", "arrependimento", "vergonha", "alívio",
-        "fascinação", "indignação", "melancolia", "satisfação", "tédio",
-        "espanto", "desânimo", "respeito", "afeto", "curiosidade",
-        "determinação", "realização", "encantamento", "prazer", "paz",
-        "calma", "tranquilidade","irritação", "inquietação", "dúvida",
-        "desconforto", "empolgação", "exaustão", "esgotamento", "fúria",
-        "nervosismo", "paixão", "pânico", "prazer", "preguiça",
-        "rancor", "remorso", "repulsa", "simpatia", "medo", "tensão",
-        "timidez", "tormento", "tristeza", "bravura", "vingança",
-        "vivacidade", "vontade", "zelo", "abandono", "adoração",
-        "amizade", "antipatia", "apego", "nojo", "bondade", "bravura",
-        "carência", "companheirismo", "culpa", "dedicação", "desprezo",
-        "dignidade", "diversão", "dor", "empatia", "entrega", "estresse",
-        "euforia", "felicidade", "fervor", "fidelidade", "frieza", "fúria",
-        "gentileza", "hostilidade", "humildade", "inveja", "lealdade"
-    ]
+    "animals" = [
+        "cachorro", "gato", "elefante", "leão", "tigre",
+        "urso", "girafa", "zebra", "hipopótamo", "rinoceronte",
+        "macaco", "pássaro", "peixe", "tartaruga", "coelho",
+        "cavalo", "boi", "ovelha", "cabra", "porco",
+        "galo", "galinha", "patinho", "peru", "pavão",
+        "esquilo", "raposa", "lobo", "urso polar", "pantera",
+        "onça", "puma", "jacaré", "cobra", "lagarto",
+        "crocodilo", "aranha", "formiga", "abelha", "mosca",
+        "borboleta", "cervo", "antílope", "camelo", "búfalo",
+        "kanguru", "pingüim", "pinguim", "foca", "golfinho",
+        "baleia", "tubarão", "morcego", "estrela-do-mar", "vaca",
+        "mupe", "cavalo-marinho", "caranguejo", "molusco", "marisco"
+    ],
+    "colors" = [
+        "vermelho", "azul", "verde", "amarelo", "laranja",
+        "roxo", "rosa", "branco", "preto", "cinza",
+        "marrom", "bege", "violeta", "indigo", "turquesa",
+        "chartreuse", "salmon", "púrpura", "ciano", "magenta",
+        "esmeralda", "açafrão", "ouro", "prata", "bronze",
+        "coral", "escarlet", "caramelo", "teal", "lavanda",
+        "branco-neve", "azul-marinho", "azul-claro", "verde-musgo", "verde-menta",
+        "verde-lima", "amarelo-claro", "amarelo-ouro", "amarelo-pálido", "azul-turquesa",
+        "azul-escuro", "turquesa-escuro", "verde-floresta", "roxo-claro", "laranja-claro",
+        "verde-água", "rosa-pastel", "laranja-vivo", "roxo-escuro", "verde-oliva",
+        "azul-petróleo", "bege-escuro", "azul-cobalto", "cinza-claro", "cinza-escuro",
+        "pêssego", "rosa-choque", "vermelho-vivo", "berinjela", "marron-claro"
+    ],
+    "countries" = [
+        "Brasil", "Estados Unidos", "Argentina", "França", "Itália",
+        "Alemanha", "Japão", "China", "Rússia", "México",
+        "Canadá", "Reino Unido", "Índia", "Austrália", "África do Sul",
+        "Espanha", "Portugal", "Colômbia", "Polônia", "Egito",
+        "Coreia do Sul", "Suécia", "Suíça", "Países Baixos", "Noruega",
+        "Turquia", "Coreia do Norte", "Irã", "Arábia Saudita", "Israel",
+        "Grécia", "Turquia", "Tailândia", "Indonésia", "Vietnã",
+        "Nova Zelândia", "Paquistão", "Bangladesh", "Filipinas", "Irlanda",
+        "República Tcheca", "Hungria", "Áustria", "Finlândia", "Dinamarca",
+        "Noruega", "Bélgica", "Romênia", "Polônia", "Ucrânia",
+        "Iraque", "Síria", "Afeganistão", "Líbano", "Quênia",
+        "Cuba", "Peru", "Chile", "Venezuela", "Bulgária"
+    ],
+    "games" = [
+        "Minecraft", "The Sims", "Fortnite", "League of Legends", "World of Warcraft",
+        "Counter-Strike: Global Offensive", "Valorant", "Among Us", "Roblox", "Cyberpunk",
+        "The Witcher", "Red Dead Redemption", "Call of Duty: Warzone", "Grand Theft Auto", "Apex Legends",
+        "Hearthstone", "PUBG", "Rocket League", "Fall Guys", "Overwatch",
+        "Stardew Valley", "Terraria", "Factorio", "Civilization", "Dark Souls",
+        "The Elder Scrolls", "Genshin Impact", "Dota", "Rainbow Six Siege", "FIFA",
+        "NBA 2K", "Far Cry", "No Man's Sky", "Dead by Daylight", "Subnautica",
+        "Watch Dogs", "Battlefield", "Diablo", "Path of Exile", "Escape from Tarkov",
+        "Total War: Warhammer", "Tomb Raider", "The Forest", "Dead Space",
+        "Minecraft Dungeons", "Unravel", "Assassin's Creed", "Nier: Automata", "Control",
+        "Destiny", "Spelunky", "Super Meat Boy", "Cuphead", "Darkest Dungeon",
+        "Outer Worlds", "Hollow Knight", "Fallout", "Borderlands", "The Division"
+    ],
+    "movies" = [
+        "O Poderoso Chefão", "O Senhor dos Anéis", "Harry Potter", "Star Wars", "Titanic",
+        "Vingadores", "Jurassic Park", "Matrix", "O Rei Leão", "Gladiador",
+        "Inception", "Interestelar", "A Origem", "O Exorcista", "Clube da Luta",
+        "Forrest Gump", "O Silêncio dos Inocentes", "Pulp Fiction", "Cidadão Kane", "O Grande Lebowski",
+        "O Exterminador do Futuro", "Avatar", "Vingadores: Ultimato", "O Hobbit", "O Diabo Veste Prada",
+        "O Lobo de Wall Street", "Os Incríveis", "Shrek", "Piratas do Caribe", "O Cavaleiro das Trevas",
+        "A Viagem de Chihiro", "Jurassic World", "Mad Max: Estrada da Fúria", "Django Livre", "Frozen",
+        "A Bela e a Fera", "Rei Arthur", "O Pianista", "O Labirinto do Fauno", "Mulher Maravilha",
+        "A Lista de Schindler", "O Grande Hotel Budapeste", "Doutor Estranho", "O Jogo da Imitação", "Coringa",
+        "Os Suspeitos", "O Menino do Pijama Listrado", "O Show de Truman", "À Procura da Felicidade", "As Branquelas",
+        "La La Land", "Jurassic Park: O Parque dos Dinossauros", "O Profissional"
+    ],
+    "series" = [
+        "Game of Thrones", "Breaking Bad", "Stranger Things", "Friends", "The Office",
+        "The Crown", "The Mandalorian", "The Witcher", "Sherlock", "Black Mirror",
+        "Money Heist", "Narcos", "Peaky Blinders", "The Walking Dead", "The Sopranos",
+        "Westworld", "House of Cards", "True Detective", "Fargo", "Better Call Saul",
+        "The Boys", "The Haunting of Hill House", "Rick and Morty", "Dark", "Prison Break",
+        "The Flash", "Arrow", "Daredevil", "The Umbrella Academy", "How I Met Your Mother",
+        "The Big Bang Theory", "Friends", "Mindhunter", "Vikings", "The Expanse",
+        "Supernatural", "Doctor Who", "Hannibal", "Narcos: Mexico", "The Last Dance",
+        "Sex Education", "The Queen's Gambit", "The Handmaid's Tale", "The Good Place", "Orange is the New Black",
+        "Chernobyl", "The Marvelous Mrs. Maisel", "Lucifer", "Fleabag", "GLOW",
+        "The 100", "The Boys", "Black Sails", "The Punisher", "Loki", "Better Call Saul",
+        "Peaky Blinders", "Big Mouth", "Ted Lasso", "Narcos", "The Outsider"
+]
+
+
+
+
+
+
+
+
+
+    
 }
 
 
