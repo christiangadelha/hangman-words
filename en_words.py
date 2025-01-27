@@ -1,14 +1,14 @@
-temas = 
+temas = {
   "brands": [
-        "apple", "microsoft", "google", "samsung", "amazon", "intel", "hp", "dell", "sony",
-        "facebook", "instagram", "twitter", "linkedin", "youtube", "whatsapp",
-        "mercedes", "bmw", "toyota", "volkswagen", "honda", "ferrari", "porsche",
-        "nike", "adidas", "puma", "converse", "vans", "ray-ban", "levi's",
-        "coca-cola", "pepsi", "fanta", "mcdonalds", "starbucks", "nestlé",
-        "netflix", "disney", "spotify", "playstation", "xbox", "nintendo",
-        "lg", "huawei", "canon", "philips", "casio", "asus", "lenovo",
-        "visa", "mastercard", "paypal", "uber", "airbnb", "booking",
-        "rolex", "gucci", "colgate", "gillette"
+      "apple", "microsoft", "google", "samsung", "amazon", "intel", "hp", "dell", "sony",
+      "facebook", "instagram", "twitter", "linkedin", "youtube", "whatsapp",
+      "mercedes", "bmw", "toyota", "volkswagen", "honda", "ferrari", "porsche",
+      "nike", "adidas", "puma", "converse", "vans", "ray-ban", "levi's",
+      "coca-cola", "pepsi", "fanta", "mcdonalds", "starbucks", "nestlé",
+      "netflix", "disney", "spotify", "playstation", "xbox", "nintendo",
+      "lg", "huawei", "canon", "philips", "casio", "asus", "lenovo",
+      "visa", "mastercard", "paypal", "uber", "airbnb", "booking",
+      "rolex", "gucci", "colgate", "gillette"
 ],
 "feelings": [
     "joy", "love", "happiness", "hope", "gratitude",
