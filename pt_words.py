@@ -177,16 +177,43 @@ temas = {
         "Chernobyl", "The Marvelous Mrs. Maisel", "Lucifer", "Fleabag", "GLOW",
         "The 100", "The Boys", "Black Sails", "The Punisher", "Loki", "Better Call Saul",
         "Peaky Blinders", "Big Mouth", "Ted Lasso", "Narcos", "The Outsider"
-]
-
-
-
-
-
-
-
-
-
+    ],
+    fruits = [
+        "maçã", "banana", "laranja", "uva", "abacaxi",
+        "manga", "morango", "kiwi", "limão", "melancia",
+        "melão", "pera", "pêssego", "cereja", "ameixa",
+        "abacate", "framboesa", "amora", "maracujá", "pitanga",
+        "carambola", "graviola", "acerola", "mamão", "tangerina",
+        "caju", "jabuticaba", "figo", "romã", "coco",
+        "açaí", "caqui", "nectarina", "goiaba", "jaca",
+        "pinha", "lichia", "cupuaçu", "seriguela", "physalis",
+        "sapoti", "kumquat", "araticum", "bacuri", "buriti",
+        "umbu", "tamarindo", "pitaya", "longan", "rambutã"
+    ],
+    professions = [
+        "médico", "advogado", "engenheiro", "professor", "arquiteto",
+        "programador", "contador", "designer", "enfermeiro", "veterinário",
+        "farmacêutico", "psicólogo", "jornalista", "policial", "bombeiro",
+        "motorista", "piloto", "chefe de cozinha", "garçom", "eletricista",
+        "pintor", "carpinteiro", "mecânico", "pedreiro", "soldador",
+        "barbeiro", "esteticista", "fotógrafo", "cinegrafista", "ator",
+        "atriz", "escritor", "editor", "publicitário", "bibliotecário",
+        "cientista", "astrônomo", "químico", "biólogo", "físico",
+        "historiador", "geógrafo", "economista", "analista de sistemas", "técnico em informática",
+        "tradutor", "marceneiro", "ourives", "florista", "dublador"
+    ],
+    foods = [
+        "pizza", "hambúrguer", "lasanha", "sushi", "tacos",
+        "burrito", "risoto", "nhoque", "macarrão", "falafel",
+        "shawarma", "paella", "curry", "ramen", "tempura",
+        "ceviche", "quiche", "croissant", "baguete", "pão sírio",
+        "churrasco", "frango assado", "bife à milanesa", "fish and chips", "salada caesar",
+        "gnocchi", "carbonara", "esfiha", "dumpling", "moqueca",
+        "guacamole", "pad thai", "arroz frito", "kebab", "satay",
+        "waffles", "panqueca", "crepe", "gelato", "brigadeiro",
+        "brownie", "mousse de chocolate", "cheesecake", "pudim", "sopa de cebola",
+        "torta de maçã", "bolo de cenoura", "donuts", "churros", "tiramisu"
+    ]
     
 }
 
