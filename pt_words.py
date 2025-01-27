@@ -22,7 +22,7 @@ temas = {
         "contentamento", "ternura", "curiosidade", "realização", "paz"
     ],
 
-    "elements" = [ 
+    "elements": [ 
         "Hidrogênio", "Lítio", "Sódio", "Potássio", "Rubídio", "Césio", "Frâncio",
         "Berílio", "Magnésio", "Cálcio", "Estrôncio", "Bário", "Rádio",
         "Escândio", "Titânio", "Vanádio", "Cromo", "Manganês", "Ferro", "Cobalto", "Níquel", 
@@ -54,7 +54,7 @@ temas = {
         "lira", "gongo", "cazoo", "flautim", "bongô"
     ],
 
-    'nature' = [
+    'nature': [
         "árvore", "floresta", "montanha", "cachoeira", "oceano",
         "deserto", "planície", "vale", "rio", "lago",
         "vulcão", "pedra", "areia", "vento", "chuva",
@@ -68,7 +68,7 @@ temas = {
         "galho"
     ],
 
-    'sports' = [
+    'sports': [
         "futebol", "basquete", "vôlei", "tênis", "natação",
         "atletismo", "ciclismo", "boxe", "karatê", "judô",
         "esgrima", "ginástica", "handebol", "rugby", "críquete",
@@ -81,7 +81,7 @@ temas = {
         "esqui", "taekwondo", "kickboxing", "windsurf", "parapente",
         "corrida de cavalo"
     ],
-    "objects" = [
+    "objects": [
         "mesa", "cadeira", "sofá", "cama", "almofada",
         "computador", "teclado", "mouse", "monitor", "telefone",
         "celular", "televisão", "geladeira", "fogão", "micro-ondas",
@@ -95,7 +95,7 @@ temas = {
         "armário", "sapato", "vassoura", "balde", "escada",
         "bateria", "controle remoto", "chave", "cadeado", "cesto"
     ],
-    "animals" = [
+    "animals": [
         "cachorro", "gato", "elefante", "leão", "tigre",
         "urso", "girafa", "zebra", "hipopótamo", "rinoceronte",
         "macaco", "pássaro", "peixe", "tartaruga", "coelho",
@@ -109,7 +109,7 @@ temas = {
         "baleia", "tubarão", "morcego", "estrela-do-mar", "vaca",
         "mupe", "cavalo-marinho", "caranguejo", "molusco", "marisco"
     ],
-    "colors" = [
+    "colors": [
         "vermelho", "azul", "verde", "amarelo", "laranja",
         "roxo", "rosa", "branco", "preto", "cinza",
         "marrom", "bege", "violeta", "indigo", "turquesa",
@@ -123,7 +123,7 @@ temas = {
         "azul-petróleo", "bege-escuro", "azul-cobalto", "cinza-claro", "cinza-escuro",
         "pêssego", "rosa-choque", "vermelho-vivo", "berinjela", "marron-claro"
     ],
-    "countries" = [
+    "countries": [
         "Brasil", "Estados Unidos", "Argentina", "França", "Itália",
         "Alemanha", "Japão", "China", "Rússia", "México",
         "Canadá", "Reino Unido", "Índia", "Austrália", "África do Sul",
@@ -137,7 +137,7 @@ temas = {
         "Iraque", "Síria", "Afeganistão", "Líbano", "Quênia",
         "Cuba", "Peru", "Chile", "Venezuela", "Bulgária"
     ],
-    "games" = [
+    "games": [
         "Minecraft", "The Sims", "Fortnite", "League of Legends", "World of Warcraft",
         "Counter-Strike: Global Offensive", "Valorant", "Among Us", "Roblox", "Cyberpunk",
         "The Witcher", "Red Dead Redemption", "Call of Duty: Warzone", "Grand Theft Auto", "Apex Legends",
@@ -151,7 +151,7 @@ temas = {
         "Destiny", "Spelunky", "Super Meat Boy", "Cuphead", "Darkest Dungeon",
         "Outer Worlds", "Hollow Knight", "Fallout", "Borderlands", "The Division"
     ],
-    "movies" = [
+    "movies": [
         "O Poderoso Chefão", "O Senhor dos Anéis", "Harry Potter", "Star Wars", "Titanic",
         "Vingadores", "Jurassic Park", "Matrix", "O Rei Leão", "Gladiador",
         "Inception", "Interestelar", "A Origem", "O Exorcista", "Clube da Luta",
@@ -164,7 +164,7 @@ temas = {
         "Os Suspeitos", "O Menino do Pijama Listrado", "O Show de Truman", "À Procura da Felicidade", "As Branquelas",
         "La La Land", "Jurassic Park: O Parque dos Dinossauros", "O Profissional"
     ],
-    "series" = [
+    "series": [
         "Game of Thrones", "Breaking Bad", "Stranger Things", "Friends", "The Office",
         "The Crown", "The Mandalorian", "The Witcher", "Sherlock", "Black Mirror",
         "Money Heist", "Narcos", "Peaky Blinders", "The Walking Dead", "The Sopranos",
@@ -178,7 +178,7 @@ temas = {
         "The 100", "The Boys", "Black Sails", "The Punisher", "Loki", "Better Call Saul",
         "Peaky Blinders", "Big Mouth", "Ted Lasso", "Narcos", "The Outsider"
     ],
-    fruits = [
+    "fruits": [
         "maçã", "banana", "laranja", "uva", "abacaxi",
         "manga", "morango", "kiwi", "limão", "melancia",
         "melão", "pera", "pêssego", "cereja", "ameixa",
@@ -190,7 +190,7 @@ temas = {
         "sapoti", "kumquat", "araticum", "bacuri", "buriti",
         "umbu", "tamarindo", "pitaya", "longan", "rambutã"
     ],
-    professions = [
+    "professions": [
         "médico", "advogado", "engenheiro", "professor", "arquiteto",
         "programador", "contador", "designer", "enfermeiro", "veterinário",
         "farmacêutico", "psicólogo", "jornalista", "policial", "bombeiro",
@@ -202,7 +202,7 @@ temas = {
         "historiador", "geógrafo", "economista", "analista de sistemas", "técnico em informática",
         "tradutor", "marceneiro", "ourives", "florista", "dublador"
     ],
-    foods = [
+    "foods": [
         "pizza", "hambúrguer", "lasanha", "sushi", "tacos",
         "burrito", "risoto", "nhoque", "macarrão", "falafel",
         "shawarma", "paella", "curry", "ramen", "tempura",
